@@ -15,3 +15,4 @@ C:\Users\aspee\OneDrive\Desktop\Enterprise SWE\EsepWebhook\src\EsepWebhook\obj\R
 C:\Users\aspee\OneDrive\Desktop\Enterprise SWE\EsepWebhook\src\EsepWebhook\obj\Release\net8.0\linux-x64\EsepWebhook.pdb
 C:\Users\aspee\OneDrive\Desktop\Enterprise SWE\EsepWebhook\src\EsepWebhook\obj\Release\net8.0\linux-x64\EsepWebhook.genruntimeconfig.cache
 C:\Users\aspee\OneDrive\Desktop\Enterprise SWE\EsepWebhook\src\EsepWebhook\obj\Release\net8.0\linux-x64\ref\EsepWebhook.dll
+C:\Users\aspee\OneDrive\Desktop\Enterprise SWE\EsepWebhook\src\EsepWebhook\obj\Release\net8.0\linux-x64\EsepWebhook.sourcelink.json
