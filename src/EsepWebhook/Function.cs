@@ -9,7 +9,8 @@ namespace EsepWebhook;
 
 public class Function
 {
-    
+    private static readonly HttpClient client = new HttpClient();
+
     /// <summary>
     /// A simple function that takes a string and does a ToUpper
     /// </summary>
@@ -20,7 +21,7 @@ public class Function
     {
 
         dynamic json = JsonConvert.DeserializeObject<dynamic>(input.ToString());
-        string payload = $"{{'text':'Issue Created: {json.issue.html_url}'}}";
+        string payload = $"{{\"text\":\"Issue Created: {json.issue.html_url}\"}}";
         
         var webRequest = new HttpRequestMessage(HttpMethod.Post, Environment.GetEnvironmentVariable("SLACK_URL"))
         {
